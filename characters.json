@@ -1,0 +1,30 @@
+[
+  {
+    "gameId": 2,
+    "id": 1,
+    "name": "Mario",
+    "url": "https://www.kindpng.com/picc/m/50-506919_8-bit-mario-png-mario-bros-8-bits.png",
+    "content": "Mario is the main character"
+  },
+  {
+    "gameId": 2,
+    "id": 2,
+    "title": "Luigi",
+    "url": "https://art.pixilart.com/3e4326d46649663.png",
+    "content": "Luigi is Mario's brother"
+  },
+  {
+    "gameId": 2,
+    "id": 3,
+    "title": "Princess",
+    "url": "https://www.kindpng.com/picc/m/147-1478591_transparent-super-mario-maker-png-princess-peach-pixel.png",
+    "content": "Mario's girlfriend:)"
+  },
+  {
+    "gameId": 2,
+    "id": 4,
+    "title": "Yoshi",
+    "url": "https://i.pinimg.com/originals/cf/53/1e/cf531e932797e91b08181d4b20f47ebb.png",
+    "content": "Mario's pet"
+  }
+]
