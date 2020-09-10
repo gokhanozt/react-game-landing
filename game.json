@@ -1,0 +1,34 @@
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "1accusamus beatae ad facilis cum similique qui sunt",
+    "url": "https://thequizgamemaster.com/wp-content/uploads/2020/08/14970_1.jpg",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
+    "content": "Tab1 Content"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "1reprehenderit est deserunt velit ipsam",
+    "url": "https://cdn.flickeringmyth.com/wp-content/uploads/2018/02/Super-Mario-Bros.jpg",
+    "thumbnailUrl": "https://via.placeholder.com/150/771796",
+    "content": "Tab2 Content"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "3officia porro iure quia iusto qui ipsa ut modi",
+    "url": "https://www.rocketchainsaw.com.au/wp-content/uploads/2015/06/puzzle-dragons-super-mario-bros-edition.jpg",
+    "thumbnailUrl": "https://via.placeholder.com/150/24f355",
+    "content": "Tab3 Content"
+  },
+    {
+    "albumId": 2,
+    "id": 4,
+    "title": "Mario & Luigi",
+    "url": "https://i.kym-cdn.com/photos/images/facebook/000/882/472/55e.png",
+    "thumbnailUrl": "https://via.placeholder.com/150/24f355",
+    "content": "Brotherhood"
+  }
+]
