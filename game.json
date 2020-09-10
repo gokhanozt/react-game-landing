@@ -1,34 +1,23 @@
 [
   {
-    "albumId": 1,
+    "gameId": 1,
     "id": 1,
-    "title": "1accusamus beatae ad facilis cum similique qui sunt",
+    "title": "Several Characters available",
     "url": "https://thequizgamemaster.com/wp-content/uploads/2020/08/14970_1.jpg",
-    "thumbnailUrl": "https://via.placeholder.com/150/92c952",
-    "content": "Tab1 Content"
+    "content": "Mario game is released with several characters"
   },
   {
-    "albumId": 1,
+    "gameId": 1,
     "id": 2,
-    "title": "1reprehenderit est deserunt velit ipsam",
+    "title": "Mario & Luigi",
     "url": "https://cdn.flickeringmyth.com/wp-content/uploads/2018/02/Super-Mario-Bros.jpg",
-    "thumbnailUrl": "https://via.placeholder.com/150/771796",
-    "content": "Tab2 Content"
+    "content": "Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center upon rescuing Princess Peach from the Koopa villain Bowser. Mario's fraternal twin brother and sidekick is Luigi."
   },
   {
-    "albumId": 1,
+    "gameId": 1,
     "id": 3,
-    "title": "3officia porro iure quia iusto qui ipsa ut modi",
+    "title": "Mario with 3D option",
     "url": "https://www.rocketchainsaw.com.au/wp-content/uploads/2015/06/puzzle-dragons-super-mario-bros-edition.jpg",
-    "thumbnailUrl": "https://via.placeholder.com/150/24f355",
-    "content": "Tab3 Content"
-  },
-    {
-    "albumId": 2,
-    "id": 4,
-    "title": "Mario & Luigi",
-    "url": "https://i.kym-cdn.com/photos/images/facebook/000/882/472/55e.png",
-    "thumbnailUrl": "https://via.placeholder.com/150/24f355",
-    "content": "Brotherhood"
+    "content": "Shigeru Miyamoto created Mario while developing Donkey Kong in an attempt to produce a best-selling video game for Nintendo; previous games, such as Sheriff, had not achieved the success of games such as Namco's Pac-Man."
   }
 ]
