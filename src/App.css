@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-section{
+  width: 100%;
+  height: 10vh;
+  --stripe: #ff8600;
+  --bg: #ff921a;
+
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.header{
+  position: relative;
+}
+.header img{
+  max-height: 300px;
+  width: 100%;
+}
+
+
+.header .container {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  
+}
+
+.header .container span {
+  text-transform: uppercase;
+  display: block; 
+}
+
+.text1 {
+  color: #39bb33;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation-name: text;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  width: 50%;
+  background: white;
+  margin: auto;
+}
+
+.text2 {
+  font-size: 25px;
+  color: rgb(233, 93, 74);
+}
+
+@keyframes text {
+  0% {
+    color: rgb(45, 87, 52);
+    margin-bottom: -40px;
+  }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+  100% {
+    margin-bottom: 20px;
+  }
+}
+
+/*Accordion*/
+.accordion-container{
+  margin-top: 90px;
+}
+
+.accordion-title {
+  background-color: #eee;
+  color: #444;
+  height: 40px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+.accordion-title:hover,
+.active {
+  background-color: #ccc;
+}
+.accordion-icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+.accordion-text {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}
+
+/*Tabs*/
+
+.wrapper {
+  /*max-width: 800px; */
+  width: 100%;
+  margin: 30px auto;
+  position: relative;
+  min-height: 200px;
+}
+.wrapper .content {
+  background-image: url(https://i.pinimg.com/originals/5f/9e/eb/5f9eeb0b118e4647169115cf3ed0ed91.jpg);
+  background-size: 28%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 82px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.tabitem {
+  border: 2px solid #fff;
+  cursor: pointer;
+  width: 33.33%;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+  background-color: #39bb33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 4px 16px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px -1px rgba(0,0,0,0.75);
+}
+
+.tabitem--inactive {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+
+
+.tabitem__title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.content {
+  text-align: center; 
+  margin-top: 15px;
+  font-size: 22px;
+  width: 100%;
+  position: relative;
+  height: 400px;
+}
+.content h3{
+  position: absolute;
+  bottom: -20px;
+  width: 100%; 
+  z-index: 5; 
+  background-color: #f5f5dcdb;
+}
+.content img{
+  width: 100%;
+  height: 340px;
+  position: absolute;
+  top: 90px;
+  left: 0;
+}
+
+/*Mobile fixes*/
+
+@media only screen and (max-width: 600px) {
+  .text1 {
+    animation: none;
+    font-size: 36px;
+  }
+}
+
+/*Acc2*/
+.accordion-wrapper + * {
+  margin-top: 0.5em;
+}
+.accordion-item {
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+  height: auto;
+  max-height: 9999px;
+}
+.accordion-item.collapsed {
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+.accordion-title {
+  font-weight: 600;
+  cursor: pointer;
+  color: #666;
+  padding: 0.5em 1.5em;
+  border: solid 1px #ccc;
+  border-radius: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-title::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid currentColor;
+}
+.accordion-title:hover,
+.accordion-title.open {
+  color: black;
+}
+.accordion-title.open::after {
+  content: "";
+  border-top: 0;
+  border-bottom: 5px solid;
+}
+.accordion-content {
+  padding: 1em 1.5em;
+}
+
+/*SelectBox*/
+select{
+  height: 60px;
+  border-radius: 4px;
+  width: 100%;
+}
